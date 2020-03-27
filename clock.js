@@ -1,0 +1,1 @@
+document.getElementById("clock_container").innerHTML= new Date();

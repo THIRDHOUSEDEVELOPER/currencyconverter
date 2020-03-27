@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>currency converter</title>
+    <link rel="stylesheet" href="icStyles.css">
+       
+</head>
+
+<body>
+
+    <div class="header">
+            <div id="logo">
+                    <img src="IMG/ishaya.png" alt="logo">
+            </div>
+        <h1>STUDENTPROJECT.COM</h1>
+
+        <p id="clock_container"></p>
+        
+    </div>
+
+    <div class="nav">
+        <button id="navbtn">HOME</button>
+        <button id="navbtn">LOGOUT</button>
+    </div>
+
+    <br>
+
+    <div id="container">
+       
+            <div class="calculator">
+                <h1 class="h1">CURRENCY CONVERTER</h1>
+            
+                <form action="" method="post">
+                <label for="value">Enter value to convert</label>
+                <input type="text" name="valueN" id="valueN">
+                
+                <label for="section">Choose currency to convert</label>
+                <select id="selectCurrency">
+                    <option value="" id="empty" disabled selected>--Choose an Option--</option>
+                    <option value="360"  id="dollar">dollar $</option>
+                    <option value="412" id="euro">euro E</option>
+                </select>
+               
+                <button type="button" id="calculate" class="button">calculate</button>
+
+            </form>
+
+            <div id="result">result</div>
+            <div id="resultdl">
+               N<span>0.00</span>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="icJavascript.js"></script>
+
+    <script type="text/javascript" src="clock.js"></script>
+</body>
+</html>
